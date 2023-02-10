@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FF7A7A] bg-desktop-intro;
+  }
+}
+@layer components {
+  .inputs {
+    @apply w-full py-3.5 sm:my-3 my-2 border font-[500] rounded-md text-gray-800 outline-none focus:border-[#6055A5] placeholder:text-gray-500 sm:pl-6 pl-4 text-sm 
+  }
+  .errorMsg {
+    @apply text-[#FF7A7A] text-xs flex justify-end mt-[-0.5rem]
+  }
+}
