@@ -66,7 +66,7 @@ function App() {
         {/* form side */}
         <section className="sm:ml-5 lg:ml-16 ml-0">
           {/* button */}
-          <div className="bg-[#6055A5] rounded-[0.6rem] mb-6 sm:text-base text-sm">
+          <div className="bg-[#6055A5] rounded-[0.6rem] mb-6 sm:text-base text-sm shadow-[0_6px_0_0_rgb(0,0,0,0.2)]">
             <p className="text-white text-center p-4 font-[700]">
               Try it free 7 days{" "}
               <span className="font-thin">
@@ -143,7 +143,7 @@ function App() {
                 <p className="errorMsg mb-4">{formErrors.password}</p>
                 <button
                   onClick={handleSubmit}
-                  className="shadow-inner shadow-green-600 bg-[#38CC8C] active:bg-green-300 text-white font-poppins p-3 rounded-md w-full"
+                  className="shadow-[inset_0_-6px_0_-3px_rgb(0,0,0,0.2)] bg-[#38CC8C] active:bg-green-300 text-white font-poppins p-3 rounded-md w-full"
                 >
                   CLAIM YOUR FREE TRIAL
                 </button>
